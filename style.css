@@ -1,0 +1,108 @@
+/* Estilo para la barra de navegación (topbar) */
+#topbar {
+   background-color: #3c240b;
+   color: bisque;
+   padding: 10px 0;
+   font-family: 'Alata', sans-serif;
+}
+
+/* Estilo para los elementos de la barra de navegación */
+#topbar a {
+   color: white;
+   /* Color del texto de los enlaces */
+   text-decoration: none;
+   /* Elimina el subrayado predeterminado de los
+    
+    enlaces */
+
+   margin: 0 15px;
+   /* Espaciado horizontal entre elementos */
+   font-size: 20px;
+}
+
+/* Cambiar el color de los enlaces cuando se les pasa el mouse */
+#topbar a:hover {
+   color: #FFD9B3;
+   /* Cambia el color del texto cuando se pasa el mouse */
+}
+
+.hero {
+   height: 500px;
+   text-align: center;
+   padding: 50px 0;
+}
+
+.hero h1 {
+   color: blue;
+}
+
+h1 {
+   font-family: 'Alata', sans-serif;
+   font-size: 50px;
+   text-align: center;
+   color: #3c240b;
+}
+
+/* Estilo para la sección de artículos */
+.articulos {
+   display: flex;
+   justify-content: space-between;
+   background-color: #FFD9B3;
+}
+
+/* Estilo para cada artículo */
+.articulo {
+   flex: 1;
+   background-color: white;
+   border: 1px solid #FFD9B3;
+   padding: 20px;
+   margin: 10px;
+   text-align: center;
+}
+
+/* Estilo para las imágenes en los artículos */
+.imagen-articulo {
+   width: 100px;
+   height: auto;
+}
+
+/* Estilo para el espacio de texto justificado */
+.texto-articulo {
+   text-align: justify;
+
+}
+
+/* Estilo para el espacio de texto justificado */
+.texto-footer {
+   text-align: justify;
+   font-family: 'Alata', sans-serif;
+   display: flex;
+   color: white;
+}
+
+.articulos {
+   background-color: #3c240b;
+}
+
+.texto-col {
+   font-family: 'Mukta', sans-serif;
+   font-size: 20px;
+   column-count: 3;
+   text-indent: 50px;
+   letter-spacing: 2px;
+   line-height: 2;
+   margin: 40px;
+   text-align: left;
+   column-gap: 60px;
+}
+
+h2 {
+   font-family: 'Alata', sans-serif;
+   text-align: center;
+   color: #3c240b;
+}
+
+h3 {
+   font-family: 'Mukta', sans-serif;
+   font-size: medium;
+}
